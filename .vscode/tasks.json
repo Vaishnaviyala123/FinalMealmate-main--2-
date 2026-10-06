@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Django Server",
+      "type": "shell",
+      "command": "& \"${workspaceFolder}\\.venv\\Scripts\\Activate.ps1\"; python manage.py runserver",
+      "options": {
+        "cwd": "${workspaceFolder}\\FinalMealmate-main"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
